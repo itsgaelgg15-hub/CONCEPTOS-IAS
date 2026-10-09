@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Inteligencia Artificial Generativa</title>
+
+    <style>
+        .tabla {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .celda {
+            width: 200px;
+            height: 200px;
+            border: 2px solid black;
+            padding: 5px;
+        }
+
+        .celda img {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Inteligencia Artificial Generativa</h1>
+
+    <p>
+        La inteligencia artificial generativa es una tecnología capaz
+        de crear contenido nuevo como textos, imágenes, música y código.
+    </p>
+
+    <h2>EJEMPLOS</h2>
+
+    <div class="tabla">
+
+        <div class="celda">
+          <a href="">
+            <img src="https://store-images.s-microsoft.com/image/apps.19329.14017442290005244.1cfb297c-3acf-470e-9828-173e8a6a34bb.fcf7d66f-6ecf-4f4c-9995-655f9f5b7275">
+            </a>
+        </div>
+
+        <div class="celda">
+          <a href="">
+            <img src="https://salvadorvilalta.com/wp-content/uploads/2024/08/Arquitectura-RAG-1024x643.webp" >
+           </a>
+        </div>
+
+        <div class="celda">
+          <a href="">
+            <img src="https://store-images.s-microsoft.com/image/apps.14785.14423064005243201.42399137-369b-40bb-b5be-ac2f079c41bf.b1d6d110-9d93-441f-ac20-2e04fd7dfe3c?h=210">
+            </a>
+        </div>
+
+        <div class="celda">
+          <a href="">
+            <img src="https://img.itmastersmag.com/wp-content/uploads/2024/11/24023116/shutterstock_2582576753.jpg" alt="IA y programación">
+            </a>
+        </div>
+
+        <div class="celda">
+          <a href="">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4CKYVwPkHhOCRBFEukCprOcgxs9mQSltEzrDHIY5sBaccVZQ_9zj-Ftcg&s=10" alt="IA en educación">
+            </a>
+        </div>
+
+    </div>
+    <p>
+      La inteligencia artificial generativa (IA generativa o GenAI) es una rama de la inteligencia artificial centrada en la creación de contenido original —como texto, imágenes, audio, video, código de programación y modelos 3D— a partir de patrones, datos y conocimientos previos aprendidos durante su entrenamiento.
+    </p>
+    <p>
+      A diferencia de la IA tradicional o discriminativa (que se limita a clasificar, predecir o identificar datos existentes, como reconocer si una foto contiene un gato), la IA generativa sintetiza y produce respuestas o artefactos completamente nuevos en función de las instrucciones (prompts) enviadas por el usuario.
+    </p>
+
+    <h2>FUNDAMENTOS TECNICOS Y ARQUITECTURA</h2>
+
+    <li><b>Arquitectura Transformer (2017)</b>: Introducida por Google en el artículo "Attention Is All You Need", introdujo el mecanismo de atención (self-attention), que permite al modelo evaluar las relaciones de significado entre palabras o elementos distantes en una secuencia entera en paralelo, superando las limitaciones de las redes recurrentes (RNN).</li>
+    <li><b>Grandes Modelos de Lenguaje (LLMs)</b>: Modelos con miles de millones de parámetros entrenados en vastos corpus de datos de texto mediante aprendizaje autosupervisado (predicción de la siguiente palabra/token).</li>
+    <li><b>Modelos de Difusión</b>: Utilizados principalmente en la generación de imágenes y video. Aprenden a reconstruir datos estructurados eliminando progresivamente ruido aleatorio de una señal visual o auditiva.</li>
+    <li><b>GANs (Redes Generativas Antagónicas)</b>: Compuestas por dos redes competidoras: un Generador que crea muestras falsas y un Discriminador que intenta detectar cuáles son reales y cuáles creadas artificialmente.</li>
+    <li><b>Alineamiento y RLHF (Aprendizaje por Refuerzo con Retroalimentación Humana)</b>: Técnica utilizada para guiar los modelos base para que sus respuestas sean útiles, precisas, seguras y alineadas con los valores humanos.</li>
+
+    <h2>PRINCIPALES CASOS DE USO E IMPACTO SECTORIAL</h2>
+
+    <li>Desarrollo de Software: Automatización de código repetitivo, generación de pruebas unitarias y documentación técnica instantánea.</li>
+    <li>Marketing y Creatividad digital: Redacción de copies, generación de recursos visuales, campañas personalizadas y prototipado rápido.</li>
+    <li>Investigación y Salud: Descubrimiento de fármacos mediante diseño de proteínas (ej. AlphaFold), análisis de literatura científica y resúmenes clínicos.</li>
+    <li>Atención al Cliente y Productividad: Asistentes virtuales conversacionales, agentes autónomos de resolución de tareas y automatización de flujos de trabajo de oficina.</li>
+    <li>Educación y Tutoría: Personalización del aprendizaje, generación de cuestionarios adaptativos y explicación paso a paso de conceptos complejos.</li>
+    
+
+    <h1>Inteligencia Artificial con arquitectura rag</h1>
+
+    <p>
+      La arquitectura RAG (Retrieval-Augmented Generation o Generación Aumentada por Recuperación) es una técnica que combina la capacidad de procesamiento de lenguaje de un Gran Modelo de Lenguaje (LLM) con un sistema de búsqueda de información externo.
+
+En lugar de confiar únicamente en el conocimiento con el que el modelo fue entrenado (que es estático y puede quedar desactualizado), un sistema RAG le permite "ir a buscar" la información relevante en bases de datos o documentos privados antes de generar una respuesta.
+
+Es el equivalente a darle a un estudiante no solo un examen para que responda de memoria, sino también el libro abierto donde están las páginas exactas con la información que necesita.
+    </p>
+
+    <h1>Inteligencia Artificial Débil</h1>
+
+    <p>
+      Es la inteligencia artificial diseñada, entrenada y programada para realizar una tarea específica o un conjunto delimitado de tareas.
+
+<li><b>Característica principal</b>: No posee conciencia, autoconocimiento ni comprensión real del mundo; solo procesa datos y simula inteligencia dentro de sus reglas.</li>
+
+<li><b>Estado actual</b>: Toda la IA existente hoy en día (incluidos los modelos de lenguaje como ChatGPT o Gemini, sistemas de reconocimiento facial, coches autónomos y algoritmos de recomendación) es IA débil, por muy avanzada o impresionante que parezca.</li>
+    </p>
+
+    <h1>Inteligencia Artificial Fuerte</h1>
+
+    <p>
+      Es una forma hipotética de inteligencia artificial que posee capacidades cognitivas humanas completas, permitiéndole aprender, razonar, planificar y resolver problemas en cualquier dominio sin entrenamiento previo específico.
+
+<li><b>Característica principal</b>: Tendría flexibilidad mental, sentido común, capacidad de abstracción y potencialmente conciencia o autoconocimiento similar al de un ser humano.</li>
+
+<li><b>Estado actual</b>: Es un concepto teórico y un objetivo de investigación a largo plazo; no existe en la actualidad.</li>
+    </p>
+</body>
+</html>
